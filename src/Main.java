@@ -10,7 +10,7 @@ public class Main {
         while(true) {
 
             System.out.println("Give a string: ");
-            String string = scanner.nextLine();
+            String string = scanner.next();
 
             if (palindrome(string)) {
                 System.out.println("\nString '" + string + "' is a palindrome \n");
